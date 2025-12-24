@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx",
+
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "allowJs": true,
+    "types": ["node"],
+
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["app/*"]
+    },
+
+    "noEmit": true,
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["app", "remix.config.ts"]
+}
