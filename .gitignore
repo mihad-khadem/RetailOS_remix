@@ -1,9 +1,34 @@
-node_modules
-package-lock.json
+# Dependencies
+node_modules/
+
+# Remix / build output
+build/
+.cache/
+public/build/
+
+# Environment variables
 .env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
 .DS_Store
-.vscode
-dist
-.cache
-.build
-public/build
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# Misc
+*.log
